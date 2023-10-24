@@ -1,0 +1,76 @@
+/* To suppress default border and styling and select alt box model*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 50px;
+  text-align: center;
+  background-color: gray;
+}
+
+#Instructions {
+  text-align: center;
+  background-color: lightgrey;
+  padding: 30px;
+}
+
+#btnPicContainer {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#btnPicContainer div {
+  justify-content: center;
+  height: 600px;
+}
+
+#letterAContainer {
+  position: relative;
+}
+
+#aButton {
+  position: absolute;
+  bottom: 0px;
+  left: 40%;
+}
+
+#letterBContainer {
+  position: relative;
+}
+#bButton {
+  position: absolute;
+  bottom: 0px;
+  left: 40%;
+}
+
+#letterCContainer {
+  position: relative;
+}
+#cButton {
+  position: absolute;
+  bottom: 0px;
+  left: 40%;
+}
+
+button {
+  padding: 20px 40px;
+  font-size: 30px;
+}
+
+#letterAPic {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#letterBPic {
+  display: none;
+}
+
+#letterCPic {
+  display: none;
+}
