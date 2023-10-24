@@ -63,14 +63,15 @@ button {
 
 #letterAPic {
   display: none;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 #letterBPic {
   display: none;
+  text-align: center;
 }
 
 #letterCPic {
   display: none;
+  text-align: center;
 }
